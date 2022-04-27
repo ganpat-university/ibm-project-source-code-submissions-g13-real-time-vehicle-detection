@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}Login{% endblock %}
+
+{% block content %}
+
+
+<html>
+  <head>
+    <title>Video Live Stream</title>
+  </head>
+  <body>
+    <h1>Video Live Stream by yashvi</h1>
+    <!-- <img src="{% url 'video_feed' %}"> -->
+    <!-- <img src="{% url 'webcam_feed' %}"> -->
+     <img src="{% url 'video_feed_output' %}">
+<!--	<img src="{% url 'livecam_feed' %}">-->
+  </body>
+</html>
+
+{% endblock %}
